@@ -1,10 +1,14 @@
 # Cloud Analytics & Housing Data Lake
 
-Cloud analytics project focused on building a simple Data Lake structure, processing Housing data with Python, storing transformed data in SQLite and generating business insights through KPIs, SQL queries and visual analysis.
+End-to-end cloud analytics project focused on simulating a Data Lake workflow, processing housing data with Python, implementing ETL operations, storing transformed information in SQLite and generating business insights through SQL analysis and visualization.
+
+---
 
 ## Business Problem
 
-How can housing data be processed, stored and analyzed using a simple cloud analytics workflow to generate useful insights about property prices, size and location?
+How can housing data be processed, stored and analyzed using a cloud-inspired analytics workflow to generate actionable insights about property prices, geographic distribution and housing characteristics?
+
+---
 
 ## Tech Stack
 
@@ -14,68 +18,98 @@ How can housing data be processed, stored and analyzed using a simple cloud anal
 - Matplotlib
 - SQLite
 - SQL
-- Data Lake
 - ETL
+- Data Lake
 - Cloud Analytics
 
-## Project Overview
+---
 
-This project simulates a basic Data Lake architecture using local folders for raw and processed data. The workflow includes data ingestion, cleaning, transformation, database storage, KPI calculation, SQL querying and visualization.
+## Project Architecture
+
+Raw Data → Data Lake Structure → Python Processing → SQLite Storage → SQL Analysis → KPI Reporting & Visualization
+
+This project simulates a simplified Cloud Analytics pipeline using local folders as a Data Lake environment for storing, processing and analyzing housing information.
+
+---
 
 ## Methodology
 
 ### 1. Data Lake Setup
 
-A simple Data Lake structure was created with folders for raw and processed data, simulating a cloud storage workflow.
+A simplified Data Lake structure was created using folders for *raw* and *processed* data to simulate cloud storage organization and analytical workflows.
 
-### 2. Database Configuration
+### 2. Data Import & Preparation
 
-SQLite was used to create a local database for storing and processing the Housing dataset.
+The Housing dataset was imported using Python and Pandas. Data quality validation included:
 
-### 3. Data Import and Cleaning
+- reviewing duplicates
+- validating structure
+- preparing the dataset for ETL processing
 
-The Housing dataset was imported using Python and Pandas. Duplicate records were reviewed and the dataset was prepared for analytical processing.
+### 3. ETL Workflow
 
-### 4. ETL Process
+An ETL pipeline was implemented to:
 
-The dataset was transformed and loaded into a SQLite database, creating a structured workflow for later analysis.
+- extract housing data
+- transform variables and dataset structure
+- load processed data into SQLite
 
-### 5. Business KPIs
+This workflow created a structured analytical environment for downstream analysis.
 
-Key metrics were calculated, including:
+### 4. Database Storage with SQLite
+
+SQLite was used to store processed information and simulate a lightweight analytical database layer.
+
+### 5. Business KPI Analysis
+
+Key business indicators were calculated, including:
 
 - Average property price
 - Average living area
 - Average number of bedrooms
 
-### 6. SQL Analysis
+### 6. SQL Analytics
 
-SQL queries were used to analyze average prices by zipcode and identify areas with higher property values.
+SQL queries were developed to:
+
+- analyze average prices by zipcode
+- identify higher-value geographic areas
+- compare housing characteristics across locations
 
 ### 7. Visualization
 
-A scatter plot was created to analyze the relationship between living area and property price.
+Visual analysis was performed using scatter plots to explore the relationship between:
+
+- property price
+- living area
+- housing distribution patterns
+
+---
 
 ## Key Insights
 
-- Property prices vary significantly by zipcode.
-- Larger living areas tend to be associated with higher prices.
-- SQL queries helped identify geographic differences in housing values.
-- The Data Lake structure allowed a clearer separation between raw and processed data.
-- The workflow demonstrates a basic Cloud Analytics and ETL process.
-  
+- Property prices vary considerably across zipcodes.
+- Larger living areas tend to correlate with higher housing prices.
+- SQL analysis revealed important geographic differences in property valuation.
+- The Data Lake structure improved separation between raw and processed information.
+- The project demonstrates a simplified Cloud Analytics and ETL workflow.
+
+---
+
 ## Author
 
-Ali Vega
-
+*Ali Vega*  
 Data Analytics • Cloud Analytics
+
+---
 
 ## Repository Structure
 
 ```text
-cloud-analytics-housing-data-lake/
-│
+cloud-analytics-housing-data-lake
 ├── README.md
-├── report/
-├── notebooks/
-└── data/
+├── notebooks
+│   └── Cloud Analytics & Housing Data Lake.ipynb
+└── report
+    └── Cloud Analytics & Housing Data Lake.pdf
+```

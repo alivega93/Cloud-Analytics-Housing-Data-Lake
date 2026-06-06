@@ -136,12 +136,20 @@ The generated KPIs provided a comprehensive overview of housing market performan
 
 The following visualizations summarize the analytical workflow, business KPIs, and strategic insights generated throughout the project.
 
-Data Lake Architecture & Analytics Workflow
-<p align="center"> <img src="Images/data-lake-architecture.png" width="900"> </p>
 Executive Dashboard & Business Insights
-<p align="center"> <img src="Images/executive-dashboard.png" width="900"> </p>
-Strategic Findings & Recommendations
-<p align="center"> <img src="Images/strategic-findings.png" width="900"> </p>
+<p align="center">
+  <img src="Images/executive-dashboard.png" width="900">
+</p>
+
+Advanced Visual Analysis
+<p align="center">
+  <img src="Images/advanced-visual-analysis.png" width="900">
+</p>
+
+Data Lake Architecture & Analytics Workflow
+<p align="center">
+  <img src="Images/data-lake-architecture.png" width="900">
+</p>
 
 ---
 
@@ -221,7 +229,7 @@ cloud-analytics-housing-data-lake
 ├── report
 │   └── cloud-analytics-housing-data-lake.pdf
 └── Images
-    ├── data-lake-architecture.png
     ├── executive-dashboard.png
-    └── strategic-findings.png    
+    ├── advanced-visual-analysis.png
+    └── data-lake-architecture.png
 ```

@@ -1,5 +1,4 @@
-### ☁️ Cloud Analytics & Housing Data Lake
----
+# ☁️ Cloud Analytics & Housing Data Lake
 
 ## Overview
 
@@ -15,13 +14,14 @@ Real estate organizations generate large volumes of data that often remain under
 
 A scalable architecture is required to centralize information, process data efficiently, and generate meaningful insights that can improve market understanding and business performance.
 
-Business Question
+### Business Question
 
 How can housing market data be leveraged through a Data Lake-based workflow to generate strategic insights, business KPIs, and support data-driven decision-making?
 
 ---
 
 ## Project Objectives
+
 Simulate a cloud analytics environment using Data Lake principles.
 Design and implement an ETL workflow.
 Store and process housing market data efficiently.
@@ -32,7 +32,8 @@ Transform raw data into actionable business insights.
 ---
 
 ## Data Source
-Dataset
+
+### Dataset
 
 Housing market dataset containing residential property information, including:
 
@@ -43,7 +44,9 @@ Number of bathrooms
 Geographic location
 Postal codes
 Additional housing characteristics
-Data Structure
+
+### Data Structure
+
 Structured housing records
 Tabular format
 Multiple business attributes for analysis
@@ -51,6 +54,7 @@ Multiple business attributes for analysis
 ---
 
 ## Tools & Technologies
+
 Python
 Pandas
 SQLite
@@ -65,7 +69,8 @@ Git & GitHub
 ---
 
 ## Methodology
-1. Data Lake Simulation
+
+### 1. Data Lake Simulation
 
 A simplified Data Lake architecture was designed to organize raw and processed housing data.
 
@@ -73,7 +78,8 @@ Layers
 Raw Data
 Processed Data
 Analytics Layer
-2. ETL Implementation
+
+### 2. ETL Implementation
 
 An ETL workflow was developed to:
 
@@ -81,11 +87,12 @@ Extract housing data
 Clean and transform records
 Prepare data for analytical processing
 Ensure data consistency and quality
-3. Database Storage
+
+### 3. Database Storage
 
 SQLite was implemented as a lightweight analytical database to store processed information and support SQL queries.
 
-4. SQL Analytics
+### 4. SQL Analytics
 
 SQL queries were used to generate business metrics such as:
 
@@ -94,7 +101,8 @@ Average construction area
 Bedroom distribution
 Geographic comparisons
 Postal code analysis
-5. Exploratory Data Analysis
+
+### 5. Exploratory Data Analysis
 
 Python and visualization libraries were used to identify:
 
@@ -103,30 +111,32 @@ Market trends
 Geographic differences
 Property characteristics
 Relationships between variables
-6. KPI Generation
+
+### 6. KPI Generation
 
 Business KPIs were calculated to evaluate the overall behavior of the housing market and support strategic analysis.
 
 ---
 
 ## Key Findings
-Price Variation by Location
+
+### Price Variation by Location
 
 Significant differences in housing prices were identified across geographic regions and postal codes.
 
-Property Size and Price Relationship
+### Property Size and Price Relationship
 
 Larger properties generally showed higher market values, indicating a strong relationship between size and pricing.
 
-Market Segmentation Opportunities
+### Market Segmentation Opportunities
 
 The analysis revealed distinct market segments with different pricing behaviors and characteristics.
 
-Geographic Insights
+### Geographic Insights
 
 Location proved to be one of the most influential factors affecting property values.
 
-Business KPIs
+### Business KPIs
 
 The generated KPIs provided a comprehensive overview of housing market performance and opportunities.
 
@@ -136,17 +146,17 @@ The generated KPIs provided a comprehensive overview of housing market performan
 
 The following visualizations summarize the analytical workflow, business KPIs, and strategic insights generated throughout the project.
 
-Executive Dashboard & Business Insights
+### Executive Dashboard & Business Insights
 <p align="center">
   <img src="Images/executive-dashboard.png" width="900">
 </p>
 
-Advanced Visual Analysis
+### Advanced Visual Analysis
 <p align="center">
   <img src="Images/advanced-visual-analysis.png" width="900">
 </p>
 
-Data Lake Architecture & Analytics Workflow
+### Data Lake Architecture & Analytics Workflow
 <p align="center">
   <img src="Images/data-lake-architecture.png" width="900">
 </p>
@@ -167,6 +177,7 @@ Stronger analytical capabilities through Data Lake architecture.
 ---
 
 ## Project Limitations
+
 The project uses a simulated Data Lake environment rather than a cloud-native platform.
 Analysis is based on the available housing dataset and may not represent all market conditions.
 Predictive models were not implemented in this phase.
@@ -189,6 +200,7 @@ Translating analytical outputs into business insights.
 ---
 
 ## Challenges
+
 Designing a scalable analytical workflow.
 Organizing data within a Data Lake structure.
 Ensuring data quality during ETL processes.
@@ -198,6 +210,7 @@ Converting technical results into actionable business recommendations.
 ---
 
 ## Recommendations
+
 Expand the Data Lake architecture using cloud-native services.
 Incorporate predictive analytics and forecasting models.
 Integrate additional geographic and socioeconomic variables.
@@ -209,13 +222,6 @@ Automate ETL processes for continuous data updates.
 ## Conclusion
 
 This project successfully implemented a complete Cloud Analytics workflow by combining Data Lake principles, ETL processes, SQL analytics, and data visualization techniques. The resulting insights transformed raw housing data into strategic business information, demonstrating how modern analytical architectures can support smarter and more effective decision-making in the real estate industry.
-
----
-
-## Author
-
-*Ali Vega*  
-Data Analytics • Cloud Analytics
 
 ---
 
@@ -233,3 +239,10 @@ cloud-analytics-housing-data-lake
     ├── advanced-visual-analysis.png
     └── data-lake-architecture.png
 ```
+
+---
+
+## Author
+
+*Ali Vega*  
+Data Analytics • Cloud Analytics
